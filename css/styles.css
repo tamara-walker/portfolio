@@ -31,30 +31,19 @@ hr {
   width: 30%;
 }
 
-/* title */
-
 #title {
-  /* background-color: #365472; */
   padding: 10% 0;
 }
-
-/* .title-img {
-  background-image: url("images/Adelaide-Hills.jpg");
-} */
 
 #title.container-fluid {
 }
 
-/* sub-headings */
-
 .carousel-titles {
   font-family: 'Cinzel', serif;
   color: #183658;
-  /* padding: 5% 0; */
 }
 
 .color-section {
-  /* background-image: url("images/Adelaide-Hills.jpg"); */
   background-color: #365472;
   color: white;
 }
@@ -64,33 +53,23 @@ hr {
   height: 60px;
 }
 
-/* .blue-separator {
-  background-color: #365472;
-  height: 1px;
-} */
-
-/* carousel */
-
-/* .indicator-button {
-  margin-top: 3%;
-} */
-
-/* .carousel-indicators {
-  margin-top: 5%;
-} */
-
-.portfolio-img {
-  /* padding: 7% 0 10%; */
-  width: 50%;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-  #adelaide-hills {
-    background-color: #ffffff;
-  }
+/* .carousel-item .portfolio-img {
+  width: 100%;
+  height: 100%;
+} */
 
-  #sellicks-beach {
-    background-color: #ffffff;
-  }
+#adelaide-hills {
+  background-color: #ffffff;
+}
+
+#sellicks-beach {
+  background-color: #ffffff;
+}
 
 #valley-view {
   background-color: #ffffff;
@@ -105,9 +84,7 @@ hr {
 }
 
 .custom-button {
-  /* background-color: #365472; */
   color: #155493;
-  /* font-weight: 900; */
   letter-spacing: 1.5px;
   margin: 5%;
   border-color: #155493;

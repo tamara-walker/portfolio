@@ -33,9 +33,25 @@ hr {
 
 #title {
   padding: 10% 0;
+  position: relative;
+  /* background-color: #365472; */
+  background-image: url("../images/background-img.jpg");
+  background-size: cover;
 }
 
-#title.container-fluid {
+#title::before {
+  content: "";
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(24, 54, 88, .7);
+}
+
+.title-img {
+  position: relative;
+  /* z-index: -1; */
 }
 
 .carousel-titles {

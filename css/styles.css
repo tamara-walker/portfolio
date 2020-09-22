@@ -34,7 +34,6 @@ hr {
 #title {
   padding: 10% 0;
   position: relative;
-  /* background-color: #365472; */
   background-image: url("../images/background-img.jpg");
   background-size: cover;
 }
@@ -51,7 +50,6 @@ hr {
 
 .title-img {
   position: relative;
-  /* z-index: -1; */
 }
 
 .carousel-titles {
@@ -72,12 +70,29 @@ hr {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  transition: 1s;
 }
 
-/* .carousel-item .portfolio-img {
-  width: 100%;
-  height: 100%;
-} */
+.text {
+  display: none;;
+}
+
+.img-fluid:hover + .text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  opacity: .6;
+  transition: 1s;
+}
 
 #adelaide-hills {
   background-color: #ffffff;
@@ -105,6 +120,11 @@ hr {
   margin: 5%;
   border-color: #155493;
   border-width: thin;
+}
+
+.custom-button:hover {
+  background-color: #365472;
+  border-color: #fff;
 }
 
 #footer {

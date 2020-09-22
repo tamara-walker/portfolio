@@ -74,7 +74,7 @@ hr {
 }
 
 .text {
-  display: none;;
+  display: none;
 }
 
 .img-fluid:hover + .text {
@@ -92,6 +92,13 @@ hr {
   transform: scale(1.1);
   opacity: .6;
   transition: 1s;
+}
+
+@media (hover: none) {
+  img-fluid {
+  transform: scale(1);
+  opacity: 1;
+  }
 }
 
 #adelaide-hills {
